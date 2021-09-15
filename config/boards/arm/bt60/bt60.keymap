@@ -3,16 +3,15 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-    behaviors {
-        mulup: multi_up {
-            compatible = "zmk,behavior-mod-morph";
-            label = "MULUP";
-            bindings = <&kp C_VOL_UP>, <&kp F17>;
-            mods = <(MOD_LCTRL)>;
-        };
-    };
+	behaviors {
+		mulup: multi_up {
+			compatible = "zmk,behavior-mod-morph";
+			label = "MULUP";
+			bindings = <&kp C_VOL_UP>, <&kp F17>;
+			mods = <(MOD_LCTRL)>;
+		};
+	};
 
-/ {
 	keymap {
 		compatible = "zmk,keymap";
 
